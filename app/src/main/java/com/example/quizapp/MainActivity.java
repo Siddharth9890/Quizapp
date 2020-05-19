@@ -63,6 +63,7 @@ private Question[] questionbank=new Question[]
                 break;
         }
     }
+
     private void checkans(boolean usercorrect)
     {
         boolean answer=questionbank[currentindex].isAnswer();
